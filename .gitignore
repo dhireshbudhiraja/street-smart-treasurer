@@ -1,0 +1,25 @@
+# Local
+.DS_Store
+*.local
+*.log*
+
+# Dist
+node_modules
+dist/
+
+# Profile
+.rspack-profile-*/
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+env/
+env.bak/
+venv.bak/
+venv/
