@@ -23,3 +23,10 @@ env/
 env.bak/
 venv.bak/
 venv/
+
+staticfiles/
+static/
+templates/*
+re_migrate_db
+bank_reserve_predict_model.pkl
+db.sqlite3

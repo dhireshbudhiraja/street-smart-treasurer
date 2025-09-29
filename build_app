@@ -1,0 +1,6 @@
+#!/bin/bash
+rm -rf static staticfiles dist templates/index.html
+npm ci && npm run build
+mv dist/index.html templates/index.html
+mv dist static
+python manage.py collectstatic --noinput
